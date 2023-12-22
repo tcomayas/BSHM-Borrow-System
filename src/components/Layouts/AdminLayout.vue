@@ -75,9 +75,9 @@ import Logo from "@/assets/logo.jpg";
 <template>
 
     <v-layout>
-        <v-app-bar color="teal-darken-4" :src="Logo">
+        <v-app-bar color="orange" :src="Logo">
             <template v-slot:image>
-                <v-img gradient="to top right, rgba(19,84,122,.8), rgba(128,208,199,.8)"></v-img>
+              <v-img gradient="to top right, rgba(255,165,0,.8), rgba(255,200,150,.8)"></v-img>
             </template>
 
             <v-app-bar-title>BSHM</v-app-bar-title>

@@ -120,7 +120,7 @@
 </script>
 <template>
     <v-card>
-        <v-tabs v-model="tab" color="deep-purple-accent-4" align-tabs="center">
+        <v-tabs v-model="tab" color="orange" align-tabs="center">
             <v-tab :value="1">Announcements</v-tab>
         </v-tabs>
         <v-window v-model="tab">
